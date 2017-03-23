@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html lang="fr" >
+	<head >
+		<title> Gyrosketch </title>
+		
+		<style>
+			
+			div.ball {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			
+				width: 80px;
+				height: 80px;
+				
+				border-radius: 50%;
+				
+				background: red;
+				z-index: 30;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<h1>Gyrosketch</h1>
+		
+		<div class="ball">
+			
+		</div>
+		
+		<textarea cols="50" rows="6" ></textarea>
+		
+		<script src="bower_components/gyro.js/js/gyro.min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="js/index.js" ></script>
+	
+	</body>
+</html>
