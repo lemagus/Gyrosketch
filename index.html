@@ -5,6 +5,18 @@
 		
 		<style>
 			
+			html, body {
+				margin: 0;
+				padding: 0;
+			}
+			
+			canvas#paper {
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 15;
+			}
+			
 			div.ball {
 				position: fixed;
 				top: 50%;
@@ -27,6 +39,7 @@
 		
 		<h1>Gyrosketch</h1>
 		
+		<canvas id="paper" width="400" height="400" ></canvas>
 		<div class="ball">
 			
 		</div>
